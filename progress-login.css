@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    scroll-behavior: smooth;
+    background-image: url('404.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #af0fff;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+h1{
+    font-size: 50px;
+}
+
+#user {
+    border-style: none;
+    transition: 0.4s;
+    margin-top: 4%;
+    width: 300px;
+    height: 50px;
+    font-size: 30px;
+    background-color: transparent;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-bottom: 5px solid black;
+}
+
+#user:focus{
+    border-bottom: 5px #af0fff;
+    background: transparent;
+}
+
+#pass {
+    border-style: none;
+    border: 1px #af0fff;
+    transition: 0.4s;
+    width: 300px;
+    margin-top: 1%;
+    height: 50px;
+    font-size: 30px;
+    background-color: transparent;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-bottom: 5px solid black;
+    
+}
+
+
+#pass:focus{
+    border-bottom: 5px #af0fff;
+}
+
+
+.card {
+    background: #171717;
+    width: 500px;
+    height: 500px;
+    margin-top: 7%;
+    border-radius: 35px;
+}
+
+.btn{
+    background: none;
+    color: #af0fff;
+    border: 5px solid #af0fff;
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 25px;
+    margin-top: 3%;
+    justify-content: center;
+}
+
+.btn:hover{
+    transition-duration: 0.4s;
+    background: #af0fff;
+    color: #171717;
+}
