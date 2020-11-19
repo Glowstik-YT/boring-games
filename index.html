@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" type="image/png" href="Boring-Games-Logo.png">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <title>Home</title>
+</head>
+
+<body>
+    <div class="header">
+        <img src="Boring-Games-Logo.png" class="logo">
+        <h1 class="space"> </h1>
+        <a href="games.html" class="nav">
+            <h3>Games</h3>
+        </a>
+        <a href="about.html" class="nav">
+            <h3>About</h3>
+        </a>
+        <a href="contact.html" class="nav">
+            <h3>Contact</h3>
+        </a>
+        <a href="our-games.html" class="nav">
+            <h3>Our Games</h3>
+        </a>
+    </div>
+    <section id='slid'>
+    <!--image slider start-->
+      <div class="slider">
+        <div class="slides">
+          <!--radio buttons start-->
+          <input type="radio" name="radio-btn" id="radio1">
+          <input type="radio" name="radio-btn" id="radio2">
+          <input type="radio" name="radio-btn" id="radio3">
+          <input type="radio" name="radio-btn" id="radio4">
+          <input type="radio" name="radio-btn" id="radio5">
+          <!--radio buttons end-->
+          <!--slide images start-->
+          <div class="slide first">
+            <img src="https://cdn.statically.io/img/wallpaperaccess.com/full/1652449.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="https://www.wallpapertip.com/wmimgs/84-841464_liked-like-share-data-src-widescreen-dark-wallpaper.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="https://wallpaperset.com/w/full/c/0/e/280078.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="https://wallpapercave.com/wp/gupKRkY.jpg" alt="">
+          </div>
+          <div class="slide">
+              <img src="https://img.pngio.com/computer-game-png-hd-transparent-computer-game-hdpng-images-cool-video-game-backgrounds-png-1365_768.png" alt="">
+          </div>
+          <h1 style="position: absolute; z-index: 10000; text-align: center; margin-left: 25%; "class="title"><strong>Welcome to Boring Games</strong></h1>
+          <!--slide images end-->
+          <!--automatic navigation start-->
+          <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+            <div class="auto-btn5"></div>
+          </div>
+          <!--automatic navigation end-->
+        </div>
+        <!--manual navigation start-->
+        <!--<div class="navigation-manual">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+          <label for="radio4" class="manual-btn"></label>
+          <label for="radio5" class="manual-btn"></label>
+        </div>-->
+        <!--manual navigation end-->
+      </div>
+      <!--image slider end-->
+      <script type="text/javascript">
+          var counter = 1;
+          setInterval(function(){
+          document.getElementById('radio' + counter).checked = true;
+          counter++;
+          if(counter > 5){
+              counter = 1;
+          }
+          }, 5000);
+      </script>
+    </section>
