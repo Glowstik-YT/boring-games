@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="progress-login.css">
+    <link rel="shortcut icon" type="image/png" href="Boring-Games-Logo.png">
+    <title>Admin Login</title>
+</head>
+
+<body>
+    <center>
+        <div class="card">
+            <br>
+            <h1>Admin Login</h1>
+            <form>
+                <div class="field">
+                    <center>
+                        <input type="text" id="user" placeholder="Username" required>
+                    </center>
+                </div>
+                <br>
+                <div class="field">
+                    <center>
+                        <input type="password" id="pass" placeholder="Password" required>
+                    </center>
+                </div>
+                <br>
+                <input class="btn" type="submit" onclick="check(this.form)" value="Login">
+            </form>
+        </div>
+    </center>
+    <script>
+        let btn = document.getElementById('btn');
+        let display = document.getElementById('display');
+
+
+        btn.addEventListener('click', check(form))
+
+
+        function check(form) {
+            if (form.user.value == "ADMIN" && form.pass.value == "Boring") {
+                window.open("index.html")
+            } else {
+                alert("Password or Username is Incorrect")
+            }
+        }
+    </script>
+</body>
+
+</html>
