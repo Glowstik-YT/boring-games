@@ -1,0 +1,46 @@
+body {
+  background: #F2F3F4;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #af0fff;
+}
+
+.header{
+  background: rgb(219, 212, 212);
+  color: #28ebde;
+}
+
+a {
+  color: #28ebde;
+}
+
+.nav:hover{
+  color: white;
+}
+
+.title{
+  color:rgb(255, 255, 255);
+}
+
+p {
+  color:#28ebde;
+}
+
+ul {
+  color:#28ebde;
+}
+
+h2 {
+  color:#28ebde;
+}
+
+#dark-btn {
+  border-radius: 50px;
+  height: 50px;
+  width: 75%;
+  background: none;
+  color: #28ebde;
+  font-size: 20px;
+  font-weight: bolder;
+  border: 3px solid #28ebde;
+}

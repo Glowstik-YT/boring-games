@@ -1,0 +1,47 @@
+body {
+  background: black;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #af0fff;
+}
+
+.header{
+  background: rgb(51, 50, 50);
+  color: #af0fff;
+}
+
+a {
+  color: #af0fff;
+}
+
+.nav:hover{
+  color: black;
+}
+
+.title{
+  color:black;
+}
+p {
+  color: #af0fff;
+}
+
+ul {
+  color:#af0fff;
+}
+
+h2 {
+  color:#af0fff;
+}
+
+#dark-btn {
+  border-radius: 50px;
+  height: 50px;
+  width: 75%;
+  background: none;
+  color: #af0fff;
+  font-size: 20px;
+  font-weight: bolder;
+  border: 3px solid #af0fff;
+}
+
+

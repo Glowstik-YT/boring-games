@@ -1,200 +1,170 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins';
-    scroll-behavior: smooth;
-    background-image: url('404.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-    color: #af0fff;
-    overflow-x: hidden;
-    overflow-y: hidden;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins';
+  scroll-behavior: smooth;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  text-align: center;
 }
 
-.logo {
-    width: 75px;
-    margin-top: 1%;
-    margin-left: 1%;
-    margin-bottom: 1%;
+.logo{
+  width: 75px;
+  margin-top: 1%;
+  margin-left: 1%;
+  margin-bottom: 1%;
 }
 
-.header {
-    background: #201f20;
-    display: flex;
-    height: 100px;
+.header{
+  display: flex;
+  height: 100px;
 }
 
-.nav {
-    margin-left: 10%;
-    text-decoration: none;
-    color: #af0fff;
-    margin-top: 0.5%;
-    font-size: 20px;
+.nav{
+  margin-left: 10%;
+  text-decoration: none;
+
+  margin-top: 0.5%;
+  font-size: 20px;
 }
 
-.space {
-    margin-left: 22%;
+.space{
+  margin-left: 35%;
 }
 
-.nav:hover {
-    color: black;
-}
 
-.title {
-    margin-top: 17%;
-    font-size: 60px;
-    color: #af0fff;
+
+.title{
+  margin-top: 17%;
+  font-size: 60px;
 }
 
 ::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
-.element::-webkit-scrollbar {
-    width: 0 !important
-}
+.element::-webkit-scrollbar { width: 0 !important }
 
-.OurGamesHeader {
-    font-size: 50px;
-    margin-top: -10%;
-}
-
-.tanks {
-    margin-left: 22%;
-    margin-bottom: 5%;
-    border: 3px solid black;
-}
-
-.snake {
-    margin-left: 3%;
-    margin-bottom: 5.8%;
-    border: 3px solid black;
-}
-.slid {
-    margin-top: 0 auto;
-}
 
 
 .slider {
-    width: 100%;
-    height: 65%;
-    overflow: hidden;
+  width: 100%;
+  height: 45%;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
+
 .slides {
-    width: 500%;
-    height: 65%;
-    display: flex;
+  width: 500%;
+  height: 45%;
+  display: flex;
 }
 
 .slides input {
-    display: none;
+  display: none;
 
 }
 
-.slide {
-    width: 20%;
-    transition: 2s;
+.slide{
+  width: 20%;
+  transition: 2s;
 }
 
 .slide img {
-    width: 100%;
-    height: 65%;
+  width: 100%;
+  height: 45%;
 }
 
 /*manual nav*/
 
 
 .navigation-manual {
-    position: absolute;
-    width: 100%;
-    margin-top: -40px;
-    display: flex;
-    justify-content: center;
+  position: absolute;
+  width: 100%;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
 }
 
-.manual-btn {
-    border: 1px solid black;
-    padding: 5px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 1s;
+.manual-btn{
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
 }
 
 .manual-btn:not(:last-child) {
-    margin-right: 40px;
+  margin-right: 40px;
 }
 
-.manual-btn:hover {
-    background: blue;
+.manual-btn:hover{
+  background: blue;
 
 }
 
 #radio1:checked ~ .first {
-    margin-left: 0;
+  margin-left:0;
 }
 
 #radio2:checked ~ .first {
-    margin-left: -20%;
+  margin-left:-20%;
 }
 
 #radio3:checked ~ .first {
-    margin-left: -40%;
+  margin-left:-40%;
 }
 
 #radio4:checked ~ .first {
-    margin-left: -60%;
+  margin-left:-60%;
 }
 
 #radio5:checked ~ .first {
-    margin-left: -80%;
+  margin-left:-80%;
 }
 
 /*Auto nav*/
 
-.navigation-auto {
-    position: absolute;
-    display: flex;
-    width: 800px;
-    justify-content: center;
-    margin-top: 460px;
+.navigation-auto{
+  position: absolute;
+  display: flex;
+  width: 800px;
+  justify-content: center;
+  margin-top: 460px;
 }
 
-.navigation-auto div {
-    padding: 5px;
-    border-radius: 10px;
-    transition: 1px;
+.navigation-auto div{
+  padding: 5px;
+  border-radius: 10px;
+  transition: 1px;
 
 }
 
-.navigation-auto div:not(:last-child) {
-    margin-right: 40px;
+.navigation-auto div:not(:last-child){
+  margin-right: 40px;
 }
 
-#radio1:checked ~ .navigation-auto .autobtn1 {
-    background: darkblue;
+#radio1:checked ~ .navigation-auto .autobtn1{
+  background: darkblue;
 }
 
-#radio2:checked ~ .navigation-auto .autobtn2 {
-    background: darkblue;
+#radio2:checked ~ .navigation-auto .autobtn2{
+  background: darkblue;
 }
 
-#radio3:checked ~ .navigation-auto .autobtn3 {
-    background: darkblue;
+#radio3:checked ~ .navigation-auto .autobtn3{
+  background: darkblue;
 }
 
-#radio4:checked ~ .navigation-auto .autobtn4 {
-    background: darkblue;
+#radio4:checked ~ .navigation-auto .autobtn4{
+  background: darkblue;
 }
 
-#radio5:checked ~ .navigation-auto .autobtn5 {
-    background: darkblue;
+#radio5:checked ~ .navigation-auto .autobtn5{
+  background: darkblue;
 }
 
-.tanks:hover {
-    filter: brightness(0.7);
-}
 
-.snake:hover {
-    filter: brightness(0.7);
-}
