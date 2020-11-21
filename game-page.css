@@ -17,3 +17,31 @@
   justify-content: space-around;
   display: flex;
 }
+
+.logo{
+  width: 75px;
+  margin-top: 10%;
+  margin-left: 1%;
+  margin-bottom: 1%;
+}
+
+.header{
+  display: flex;
+  height: 100px;
+}
+
+.nav{
+  margin-left: 10%;
+  text-decoration: none;
+
+  margin-top: 0.5%;
+  font-size: 20px;
+}
+
+.space{
+  margin-left: 35%;
+}
+
+#dark-btn{
+  margin-left: 12%;
+}
