@@ -33,7 +33,7 @@
 .nav{
   margin-left: 10%;
   text-decoration: none;
-
+  font-family: 'Poppins';
   margin-top: 0.5%;
   font-size: 20px;
 }
@@ -44,4 +44,8 @@
 
 #dark-btn{
   margin-left: 12%;
+}
+
+body {
+  font-family: 'Poppins';
 }
