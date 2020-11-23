@@ -48,6 +48,7 @@ h2 {
 
 .card {
   background: white;
+  box-shadow: 5px 5px 7px rgb(190, 180, 180);
 
 }
 
@@ -80,4 +81,20 @@ h2 {
   color:#28ebde;
   border: 5px solid #2c9c95;
 
+}
+
+.go-home{
+  margin-top: 2.5%;
+  border: 2px solid #2c9c95;
+  border-radius: 10px;
+  margin-left: 1%;
+  width: 180px;
+  height: 28px;
+  font-size: 17px;
+  text-decoration: none;
+  box-shadow: 3px 4px 7px rgb(190, 180, 180);
+}
+
+.home{
+  text-decoration: none;
 }

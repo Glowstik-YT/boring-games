@@ -47,7 +47,7 @@ h2 {
 
 .card {
   background: #171717;
-
+  box-shadow: 5px 5px 7px rgb(17, 17, 17);
 }
 
 .input {
@@ -80,4 +80,21 @@ h2 {
   color: purple;
   border: 5px solid #af0fff;
 
+}
+
+.go-home{
+  margin-top: 2.5%;
+  border: 2px solid #af0fff;
+  border-radius: 10px;
+  margin-left: 1%;
+  width: 180px;
+  height: 28px;
+  font-size: 17px;
+  text-decoration: none;
+  box-shadow: 4px 5px 7px rgb(17, 17, 17);
+  background: none;
+}
+
+.home{
+  text-decoration: none;
 }
