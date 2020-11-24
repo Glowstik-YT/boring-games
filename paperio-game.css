@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins';
+  scroll-behavior: smooth;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  text-align: center;
+}
+
+.logo{
+  width: 75px;
+  margin-top: 1%;
+  margin-left: 1%;
+  margin-bottom: 1%;
+}
+
+.header{
+  display: flex;
+  height: 100px;
+}
+
+.nav{
+  margin-left: 10%;
+  text-decoration: none;
+  margin-top: 0.5%;
+  font-size: 20px;
+}
+
+.space{
+  margin-left: 35%;
+}
