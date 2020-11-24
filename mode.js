@@ -7,11 +7,11 @@ const darkMode = localStorage.getItem('darkMode');
 
 const enableDarkMode = () => {
   try{
-    document.getElementById('img1').setAttribute('src', 'https://futurefive.co.nz/uploads/story/2020/02/18/gamer_room.jpg');
-    document.getElementById('img2').setAttribute('src', 'Boring-Games-logo.png');
-    document.getElementById('img3').setAttribute('src', 'https://futurefive.co.nz/uploads/story/2020/02/18/gamer_room.jpg');
-    document.getElementById('img4').setAttribute('src', 'https://wallpaperaccess.com/full/185915.jpg');
-    document.getElementById('img5').setAttribute('src', 'https://futurefive.co.nz/uploads/story/2020/02/18/gamer_room.jpg');
+    document.getElementById('img1').setAttribute('src', 'https://wallpaperaccess.com/full/772361.jpg');
+    document.getElementById('img2').setAttribute('src', 'https://wallpapercave.com/wp/wp6030002.jpg');
+    document.getElementById('img3').setAttribute('src', 'https://wallpapercave.com/wp/wp6030002.jpg');
+    document.getElementById('img4').setAttribute('src', 'https://wallpapercave.com/wp/wp6030002.jpg');
+    document.getElementById('img5').setAttribute('src', 'https://i.pinimg.com/originals/bf/97/f7/bf97f7fb893ea02038a28bf6415fed02.jpg');
   }
 
   catch(err){
@@ -66,4 +66,3 @@ btn.addEventListener("click", () => {
         console.log(darkMode);
     }
 });
-
