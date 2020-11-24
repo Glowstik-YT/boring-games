@@ -59,6 +59,25 @@ h2 {
   font-size: 25px;
 }
 
+#btna{
+  border-radius: 50px;
+  height: 50px;
+  width: 75%;
+  background: none;
+  color: #28ebde;
+  font-size: 20px;
+  font-weight: bolder;
+  border: 3px solid #28ebde;
+  transition: 0.7s;
+}
+
+#btna:hover{
+  color: white;
+  background: #28ebde;
+  transition: 0.7s;
+  font-size: 25px;
+}
+
 
 .card {
   background: white;
