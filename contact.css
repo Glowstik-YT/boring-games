@@ -42,9 +42,10 @@ body {
     width: 200px;
     height: 40px;
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 9px;
     margin-top: 10px;
     font-size: 25px;
+    
 }
 
 
