@@ -49,6 +49,14 @@ h2 {
   font-size: 20px;
   font-weight: bolder;
   border: 3px solid #af0fff;
+  transition: 0.7s;
+}
+
+
+#dark-btn:hover{
+  color: black;
+  background: #af0fff;
+  transition: 0.7s;
 }
 
 
@@ -84,10 +92,26 @@ h2 {
 
 
 .cards {
-  color: purple;
+  color: #af0fff;
   border: 5px solid #af0fff;
-
+  transition: 0.5s;
+  font-weight: bolder;
+  cursor: pointer;
 }
+
+.cards:hover{
+  color: black;
+  background: #af0fff;
+  font-size: 20px;
+  width:200px;
+  height: 30px;
+  transition: 0.5s;
+}
+
+/*.cards a:hover{
+  color: black;
+  font-size: 20px;
+}*/
 
 .go-home{
   margin-top: 2.5%;

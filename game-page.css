@@ -4,9 +4,15 @@
   text-align: center;
   height: 30px;
   margin: 20px;
-  border-radius: 50px;
+  border-radius: 9px;
   border: 5px solid purple;
+
 }
+
+.cards a{
+  text-decoration: none;
+}
+
 
 .flex-box{
   width: 75%;

@@ -49,6 +49,13 @@ h2 {
   font-size: 20px;
   font-weight: bolder;
   border: 3px solid #28ebde;
+  transition: 0.7s;
+}
+
+#dark-btn:hover{
+  color: white;
+  background: #28ebde;
+  transition: 0.7s;
 }
 
 
@@ -84,8 +91,20 @@ h2 {
 }
 
 .cards {
-  color:#28ebde;
-  border: 5px solid #2c9c95;
+  color:  #28ebde;
+  border: 5px solid  #28ebde;
+  transition: 0.5s;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.cards:hover{
+  color: white;
+  background:  #28ebde;
+  font-size: 20px;
+  width:200px;
+  height: 30px;
+  transition: 0.5s;
 }
 
 .go-home{
