@@ -8,6 +8,10 @@
 .header{
   display: flex;
   height: 100px;
+  width: 100%;
+  position: fixed;
+  transition: 0.3s;
+  z-index: 1000000;
 }
 
 .nav{
