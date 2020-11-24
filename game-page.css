@@ -1,38 +1,18 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Poppins';
-  scroll-behavior: smooth;
-  background-size: cover;
-  background-attachment: fixed;
-  overflow-x: hidden;
-  overflow-y: scroll;
+.cards{
+  background:none;
+  width: 150px;
   text-align: center;
+  height: 30px;
+  margin: 20px;
+  border-radius: 9px;
+  border: 5px solid purple;
+
 }
 
-.logo{
-  width: 75px;
-  margin-top: 1%;
-  margin-left: 1%;
-  margin-bottom: 1%;
-}
-
-.space{
-  margin-left: 35%;
-}
-
-.header{
-  display: flex;
-  height: 100px;
-  background-color: #333333;
-}
-
-.nav{
-  margin-left: 10%;
+.cards a{
   text-decoration: none;
-  margin-top: 2.2%;
-  font-size: 10px;
 }
+
 
 .flex-box{
   width: 75%;
