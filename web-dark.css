@@ -130,3 +130,23 @@ h2 {
 .home{
   text-decoration: none;
 }
+
+
+.slide img {
+  width: 100%;
+  height: 50%;
+}
+
+.slider {
+  width: 100%;
+  height: 50%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+
+.slides {
+  width: 500%;
+  height: 50%;
+  display: flex;
+}
