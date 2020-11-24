@@ -26,7 +26,7 @@ a {
 }
 
 .title{
-  color:#af0fff;
+  color: #af0fff;
 }
 p {
   color: #af0fff;
@@ -54,26 +54,6 @@ h2 {
 
 
 #dark-btn:hover{
-  color: black;
-  background: #af0fff;
-  transition: 0.7s;
-  font-size: 25px;
-}
-
-#btna {
-  border-radius: 50px;
-  height: 50px;
-  width: 75%;
-  background: none;
-  color: #af0fff;
-  font-size: 20px;
-  font-weight: bolder;
-  border: 3px solid #af0fff;
-  transition: 0.7s;
-}
-
-
-#btna:hover{
   color: black;
   background: #af0fff;
   transition: 0.7s;
@@ -154,19 +134,25 @@ h2 {
 
 .slide img {
   width: 100%;
-  height: 50%;
+  height: 65%;
 }
 
 .slider {
   width: 100%;
-  height: 50%;
-  border-radius: 10px;
+  height: 65%;
   overflow: hidden;
 }
 
 
 .slides {
   width: 500%;
-  height: 50%;
+  height: 65%;
   display: flex;
 }
+
+.element::-webkit-scrollbar { width: 0 !important }
+
+#cards:hover{
+  font-size: 17px;
+}
+
