@@ -48,5 +48,15 @@ body {
 
 }
 
+.head {
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  display: flex;
+}
+
 
 
